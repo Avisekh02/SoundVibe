@@ -24,7 +24,7 @@ function HeadphoneModel() {
   );
 }
 
-useGLTF.preload('https://github.com/Avisekh02/SoundVibe/blob/main/public/models/headphone.glb');
+useGLTF.preload('https://cymjwgzaejajhhwjuehi.supabase.co/storage/v1/object/public/projectbuket//sony_mdr-7506_headphones.glb');
 
 const Lighting = () => {
   const [ambientIntensity, setAmbientIntensity] = useState(0);
