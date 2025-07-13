@@ -24,7 +24,7 @@ function HeadphoneModel() {
   );
 }
 
-useGLTF.preload('/models/headphone.glb');
+useGLTF.preload('https://github.com/Avisekh02/SoundVibe/blob/main/public/models/headphone.glb');
 
 const Lighting = () => {
   const [ambientIntensity, setAmbientIntensity] = useState(0);
